@@ -84,7 +84,7 @@
 	margin: 0px;
 }
 
-@media all and (max-width: 576px){
+@media only screen  and (max-width: 576px){
 	.header, .content, .footer {
 		padding-right: 30px;
 		padding-left: 30px;
@@ -102,14 +102,14 @@
 	}
 }
 
-@media all and (min-width: 576px) and (max-width: 768px){
+@media only screen  and (min-width: 576px) and (max-width: 768px){
 	.title {
 		font-size: 20px;
 	}
 
 }
 
-@media all and (max-width: 768px){
+@media only screen  and (max-width: 768px){
 	.footerImage img {
 		display: none;
 	}
@@ -118,7 +118,7 @@
 	}
 }
 
-@media all and (max-width: 1260px){
+@media only screen  and (max-width: 1260px){
 	.logoContainer img {
 		display: none;
 	}
